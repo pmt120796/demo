@@ -1,1 +1,95 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    min-height: 100%;
+}
+
+body {
+    background-color: rgba(0,0,0,.05) !important;
+}
+
+a {
+    cursor: pointer;
+}
+
+.input-group-text {
+    padding: 0 !important;
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+}
+
+.btn-search {
+    color: #666;
+    background-color: #e1e5ec;
+    border-color: #e1e5ec;
+}
+
+.btn.dropdown-toggle {
+    border: 1px solid;
+}
+
+.btn-export {
+    background: #36c6d3;
+    border-radius: 25px !important;
+    overflow: hidden;
+    color: white;
+}
+
+.table-scrollable {
+    overflow-x: auto;
+}
+
+.btn-action {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50% !important;
+}
+
+.btn-action i {
+    position: relative;
+    top: -1px;
+}
+.table {
+    border: 1px solid #ccc !important;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 4px;
+    color: #575757 !important;
+}
+
+.table thead tr th {
+    background-color: #fafafa;
+    vertical-align: middle !important;
+    border: none !important;
+    border-right: 1px solid #ccc !important;
+    border-bottom: 1px solid #ccc !important;
+    font-weight: 600 !important;
+}
+
+.table thead tr th:first-child {
+    border-top-left-radius: 4px;
+}
+
+.table thead tr th:last-child {
+    border-right: none !important;
+    border-top-right-radius: 4px;
+}
+
+.table tbody tr td {
+    border-right: 1px solid #dee2e6 !important;
+}
+
+.table tbody tr td:last-child {
+    border-right: none !important;
+}
+
+.table tbody tr:first-child td {
+    border-top: none !important;
+}
+
+.login-card {
+    background-color: transparent !important;
+    border: none !important;
+}
